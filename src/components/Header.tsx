@@ -3,11 +3,13 @@ function Header () {
   return(
 <>
   <header className=" bg-green-200 bg-cover">
-    <div className="max-w-screen-xl h-[600px] container mx-auto flex flex-col md:flex-row-reverse items-center justify-between px-6 md:px-12">
+    <div className="max-w-screen-xl h-[600px] container mx-auto flex flex-col md:flex-row-reverse items-center justify-between 
+    px-6 md:px-12">
                         {/* For Image on the left side */}
               <div>
               <div>
-                <Image src="/images/first.png" alt="model" height={1000} width={1000}/>
+                <Image className="h-[500px] w-[1050px] mr-20"
+                src="/images/first.png" alt="model" height={1000} width={1000}/>
               </div>
               </div>
 

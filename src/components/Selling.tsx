@@ -10,9 +10,11 @@ function Selling(){
                         Get in on the trend with our curated selection of best-selling styles.
                     </h4>
                     <div className="flex p-11 justify-evenly">
-                        <Image src="/images/model2.png" alt="model" height={250} width={250} className="bg-customGreen p-4" />
-                        <Image src="/images/model3.png" alt="model" height={250} width={250} className="ml-28 bg-customLightGreen p-4"/>
-                        <Image src="/images/model4.png" alt="model" height={250} width={250} className="ml-28 bg-blue-100"/>
+                        <Image src="/images/model2.png" alt="model" height={300} width={250} 
+                        className="bg-customGreen" />
+                        <Image src="/images/model3.png" alt="model" height={300} width={250} 
+                        className="ml-28 bg-customLightGreen"/>
+                        <Image src="/images/model4.png" alt="model" height={300} width={250} className="ml-28 bg-blue-100"/>
                         </div>
                         
                         <div className="flex font-serif">
